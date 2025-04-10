@@ -1,0 +1,55 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --primary-colour: #4caf50;
+  --secondary-colour: #ffc107;
+  --background-colour: #f4f4f4;
+  --primary-text-colour: #333333;
+  --secondary-text-colour: #666666;
+  --heading-colour: #212121;
+  --button-text-colour: #ffffff;
+  --icons-colour: #4caf50;
+  --icons-colour: #a5d6a7;
+  --link-colour: #1976d2;
+  --success-colour: #4caf50;
+  --disabled: #b0bec5;
+
+  /* Fonts */
+  --heading-1-font-family: Inter-Bold, sans-serif;
+  --heading-1-font-size: 32px;
+  --heading-1-line-height: normal;
+  --heading-1-font-weight: 700;
+  --heading-1-font-style: normal;
+  --heading-2-font-family: Inter-SemiBold, sans-serif;
+  --heading-2-font-size: 24px;
+  --heading-2-line-height: normal;
+  --heading-2-font-weight: 600;
+  --heading-2-font-style: normal;
+  --heading-3-font-family: Inter-Medium, sans-serif;
+  --heading-3-font-size: 18px;
+  --heading-3-line-height: normal;
+  --heading-3-font-weight: 500;
+  --heading-3-font-style: normal;
+  --body-text-font-family: Inter-Regular, sans-serif;
+  --body-text-font-size: 16px;
+  --body-text-line-height: normal;
+  --body-text-font-weight: 400;
+  --body-text-font-style: normal;
+  --button-text-font-family: Inter-SemiBold, sans-serif;
+  --button-text-font-size: 16px;
+  --button-text-line-height: normal;
+  --button-text-font-weight: 600;
+  --button-text-font-style: normal;
+  --link-text-font-family: Inter-Regular, sans-serif;
+  --link-text-font-size: 16px;
+  --link-text-line-height: normal;
+  --link-text-font-weight: 400;
+  --link-text-font-style: normal;
+  --text-font-family: Inter-Regular, sans-serif;
+  --text-font-size: 12px;
+  --text-line-height: normal;
+  --text-font-weight: 400;
+  --text-font-style: normal;
+
+  /* Effects */
+}

@@ -1,0 +1,140 @@
+.chats,
+.chats * {
+  box-sizing: border-box;
+}
+.chats {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.chat {
+  background: #e0e0e0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.avatar-2 {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.frame-142 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.john-doe {
+  color: var(--primary-text-colour, #333333);
+  text-align: left;
+  font-family: var(--body-text-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 16px);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-141 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.hi-i-came-across-your {
+  color: var(--secondary-text-colour, #666666);
+  text-align: center;
+  font-family: var(--body-text-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 16px);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._12-30-pm {
+  color: var(--secondary-text-colour, #666666);
+  text-align: left;
+  font-family: var(--body-text-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 16px);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.avatar-9 {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.chat2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar-6 {
+  border-radius: 1000px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.avatar-8 {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}

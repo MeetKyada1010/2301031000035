@@ -1,0 +1,333 @@
+.feed,
+.feed * {
+  box-sizing: border-box;
+}
+.feed {
+  background: var(--background-colour, #f4f4f4);
+  height: 500px;
+  position: relative;
+  overflow-y: auto;
+}
+.feed-contents {
+  padding: 10px 0px 70px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  width: 358px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.user-card-1 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 169px;
+  position: relative;
+}
+.user-card-1-default {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.user-card-default {
+  background: var(--background-colour, #f4f4f4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: hidden;
+}
+.user-1-bio {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 358px;
+  height: 67px;
+  position: absolute;
+  left: 0px;
+  top: 102px;
+}
+.ux-ui-designer-with-5-years-of-experience-specializing-in-web-and-mobile-applications-passionate-about-user-centred-design {
+  color: var(--primary-text-colour, #333333);
+  text-align: left;
+  font-family: var(--body-text-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 16px);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.user-1-name-username {
+  border-style: dashed;
+  border-color: #000000;
+  border-width: 0px 0px 0.2px 0px;
+  padding: 5px 0px 5px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 358px;
+  height: 84px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.user-1-avatar {
+  display: flex;
+  flex-direction: column;
+  gap: 5.75px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 75px;
+  position: relative;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 56.25px;
+  height: 56.25px;
+  position: relative;
+}
+.avatar-2 {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.johnd {
+  color: var(--primary-text-colour, #333333);
+  text-align: center;
+  font-family: var(--text-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-font-size, 12px);
+  font-weight: var(--text-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.john-doe {
+  color: var(--heading-colour, #212121);
+  text-align: left;
+  font-family: var(--heading-3-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--heading-3-font-size, 18px);
+  font-weight: var(--heading-3-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linkedin-com-in-username {
+  color: var(--link-colour, #1976d2);
+  text-align: left;
+  font-family: var(--body-text-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 16px);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-separator {
+  padding: 0px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 17px;
+  position: relative;
+}
+.rule {
+  background: var(--icons-colour, #4caf50);
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1px;
+  position: relative;
+}
+.user-card-2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 169px;
+  position: relative;
+}
+.ux-ui-designer-with-5-years-of-experience-specializing-in-web-and-mobile-applications-passionate-about-user-centred-design2 {
+  color: var(--primary-text-colour, #333333);
+  text-align: left;
+  font-family: var(--body-text-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 16px);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  width: 338px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.avatar-3 {
+  border-radius: 1000px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.user-card-3 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 169px;
+  position: relative;
+}
+.avatar-6 {
+  border-radius: 1000px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.user-card-4 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 169px;
+  position: relative;
+}
+.avatar-4 {
+  border-radius: 1000px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.user-card-5 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 169px;
+  position: relative;
+}
+.avatar-5 {
+  border-radius: 1000px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.user-card-6 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 169px;
+  position: relative;
+}
+.experienced-in-organizing-events-from-corporate-meetings-to-social-gatherings-strong-skills-in-budgeting {
+  color: var(--primary-text-colour, #333333);
+  text-align: left;
+  font-family: var(--body-text-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-text-font-size, 16px);
+  font-weight: var(--body-text-font-weight, 400);
+  position: relative;
+  width: 338px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.avatar-7 {
+  border-radius: 1125px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.user-card-7 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 169px;
+  position: relative;
+}
+.user-card-default2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.avatar-9 {
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.user-card-8 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 169px;
+  position: relative;
+}
+.avatar-8 {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
